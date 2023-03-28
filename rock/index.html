@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="shortcut icon"
+        href="https://w7.pngwing.com/pngs/594/662/png-transparent-music-app-icon-mobile-launcher-icon-music-symbol-icon-pink-pink-music.png"
+        type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | Songs</title>
+
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Fasthand&family=Lobster&display=swap');
+
+    * {
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+    body {
+        box-sizing: border-box;
+        overscroll-behavior: none;
+    }
+
+    nav {
+        background-color: rgb(249, 17, 141);
+        height: auto;
+        width: 100%;
+    }
+
+    #head1 a {
+        text-decoration: none;
+        color: white;
+        margin-top: 5px !important;
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'Lobster', cursive;
+    }
+
+    #c1 {
+        max-width: 1000px;
+        height: auto;
+        padding: 10px;
+    }
+
+    #search {
+        text-align: center;
+        color: rgb(249, 17, 141);
+        max-width: 700px;
+        border-radius: 20px;
+        border: 2px solid rgb(245, 4, 133);
+    }
+
+    ::placeholder {
+        color: gray;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .card{
+        border: none;
+    }
+    
+</style>
+
+
+<body>
+    <header>
+        <nav class="navbar justify-content-center">
+            <p class="text" id="head1"><a href="./src/login.html">Rock Music</a></p>
+        </nav>
+    </header>
+
+    <main class="songs mt-5">
+        <div class="container" id="c1">
+            <!-- search engine -->
+            <center>
+                <input type="search" name="" id="search" class="form-control" placeholder="search your favourite son">
+            </center>
+
+
+            <!-- types of songs -->
+            <div class="play-list mt-5 p-3">
+                <p style="font-weight: 700; color: rgb(249, 17, 141); font-family: 'Times New Roman', Times, serif;">Classic Songs</p>
+                <div class="row">
+
+                    <!-- card strucure -->
+                    <div class="col-sm-3">
+                        <a href="">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class="card-img" src="https://upload.wikimedia.org/wikipedia/en/5/5f/Baahubali_The_Beginning_poster.jpg"
+                                        alt="Title">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
